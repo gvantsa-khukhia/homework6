@@ -52,3 +52,53 @@ a{
     font-size: 55px;
 }
 
+/* section */
+
+section{
+    width: 90%;
+    margin: 95px auto 135px auto;
+}
+
+h2{
+    margin-bottom: 68px;
+    color: #27187F;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.cards{
+    width: 100%;
+    height: 717px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+.card{
+    width: 30%;
+    height: 333px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.card_img{
+    width: 90%;
+    height: 188px;
+}
+.card_text{
+    color: #133B3A;
+    width: 90%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+}
