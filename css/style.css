@@ -56,7 +56,10 @@ a{
 
 section{
     width: 90%;
-    margin: 95px auto 135px auto;
+    margin-top: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 135px;
 }
 
 h2{
@@ -101,4 +104,69 @@ h2{
     font-size: 20px;
     line-height: 23px;
 
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: #758BFD;
+}
+
+.footer_info{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_info_box{
+    padding: 75px 97px 0 98px;
+margin-bottom: 97px;
+}
+
+h4{
+ color: #00CAD7;   
+ font-family: 'Didact Gothic', sans-serif;
+ font-size: 20px;
+ font-weight: 400;
+ margin-bottom: 21px;
+}
+
+.mail{
+    margin-bottom: 12px;
+}
+
+.facebook{
+    margin-right: 12px;
+}
+.fa-instagram{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.fa-linkedin-in{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 12px; 
+    margin-right: 12px;
+}
+
+.footer_info_text1{
+    color: #FFFFFF;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer_info_text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer_plastic_cards{
+    text-align: end;
+    padding-right: 104px;
+    padding-bottom: 71px;
 }
