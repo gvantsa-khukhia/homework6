@@ -1,0 +1,54 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    background-color: #DDEAF8;
+    margin-inline: auto;
+    }
+
+    header{
+        width: 100%;
+        padding: 53px 98px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    
+ul{
+display: flex;
+gap: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.active{
+    color: #27187F;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: medium;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.noactive{
+    color: #758BFD;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: medium;
+    font-size: 24px;
+    font-weight: 500;
+}
+.search_box{
+    width: 221px;
+    height: 55px;
+    border: 3px solid #27187F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.loop{
+    font-size: 55px;
+}
+
